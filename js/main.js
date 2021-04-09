@@ -19,9 +19,9 @@ dropLink.click(function(){
 });
 
 //HOVER
-dropLink.hover(function(){
+dropDown.hover(function(){
 
-    //CLICK
+    $(this).children('.dropmenu').toggle();
 
 });
 
