@@ -4,8 +4,54 @@
     box-sizing: border-box;
 }
 
+/* UTILITY */
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+/* colors */
+.grey{
+color:#939596
+}
+
+/* HEADER */
+
 header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    height : 100px;
 }
+
+ul.ul-left,
+ul.ul-right {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropmenu{
+    display: none;
+    position: absolute;
+    top:100%;
+    width: 160px;
+    padding:10px;
+    border: 1px solid black;
+}
+
+
+
