@@ -19,11 +19,11 @@ dropLink.click(function(){
 });
 
 //HOVER
-dropDown.hover(function(){
+// dropDown.hover(function(){
 
-    $(this).children('.dropmenu').toggle();
+//     $(this).children('.dropmenu').toggle();
 
-});
+// });
 
 
 

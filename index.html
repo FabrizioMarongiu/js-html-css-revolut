@@ -8,6 +8,13 @@
     <!-- STYLE -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet"> 
+
     <!-- JQUERY -->
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/main.js"></script>
@@ -16,99 +23,225 @@
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header class="container">
-        <!-- NAV LEFT -->
-        <ul class="ul-left">
-            <li>
-                <a href="" class="logo">
-                    <img src="./img/logo.svg" alt="Logo Revolute">
-                </a>
-            </li>
-            <li>
-                <a href="#">Personale</a>
-            </li>
-            <li>
-                <a href="#" class="grey">Businnes</a>
-            </li>
-
-        </ul>
-
-        <!-- NAV RIGHT -->
-        <ul class="ul-right">
-            <li class="dropdown">
-                <a href="#" class="menu grey">Funzionalità</a>
-                
-            </li>
-            <li class="dropdown">
-                <a href="#" class="menu grey">Abbonamenti</a>
-                <ul class="dropmenu">
-                    <li>
-                        <a href="#" class="grey">Standard</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Plus</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Premium</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Metal</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Confronta i piani</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#" class="menu grey">Chi Siamo</a>
-                <ul class="dropmenu">
-                    <li>
-                        <a href="#" class="grey">Chi siamo</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Leadership</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Sala stampa</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Affiliate</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Influencer</a>
-                    </li>
-                    <li>
-                        <a href="#" class="grey">Lavora con noi</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#" class="menu grey">Aiuto</a>
-            </li>
-            <li>
-                <a href="#" class="btn">Accedi</a>
-            </li>
-            <li>
-                <a href="#" class="btn">Scarica l'App</a>
-            </li>
-
-        </ul>
-
-    </header>
-
-    <!-- MAIN -->
-    <main>
-        main...
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-        footer...
-    </footer>
+    <section class="viewport"><!-- HEADER -->
+        <header>
+            <div class="container main-header">
+                <!-- NAV LEFT -->
+            <ul class="ul-left">
+                <li>
+                    <a href="#">
+                        <img src="./img/logo.svg" alt="Logo Revolute">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="black">Personale</a>
+                </li>
+                <li>
+                    <a href="#" class="grey">Businnes</a>
+                </li>
+    
+            </ul>
+    
+            <!-- NAV RIGHT -->
+            <ul class="ul-right">
+                <li class="dropdown">
+                    <a href="#" class="menu grey">Funzionalità</a>
+                    <div class="dropmenu big-menu">
+                        <ul class="flex">
+                            
+                                <ul>
+                                    <li class="flex-vertical ptb-20px">
+                                        <div class="logo">
+                                            <i class="fas fa-university"></i>
+                                        </div>
+                                        <span  class="grey ml-10px">CONTO</span>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Budget e statistiche</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Carte</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Conto Junior</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Pocket</a>
+                                    </li>
+                                </ul>
+                            
+                            
+                                <ul>
+                                    <li class="flex-vertical ptb-20px">
+                                        <div class="logo">
+                                            <i class="fas fa-chart-bar"></i>
+                                        </div>
+                                        <span  class="grey ml-10px">INVESTIMENTI E RISPARMI</span>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Crypto</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Prodotto</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Salvadanai</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <div class="ml-20px light-grey coming-soon">
+                                            Salvadanai Deposito
+                                            <div class="soon">prossimamente</div>
+                                        </div>
+                                    </li>
+                                </ul>
+    
+                                <ul>
+                                    <li class="flex-vertical ptb-20px">
+                                        <div class="logo">
+                                            <i class="fas fa-money-check-alt"></i>
+                                        </div>
+                                        <span  class="grey ml-10px">PAGAMENTI</span>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Trasferimento di denaro</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Fatture di gruppo</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Abbonamenti</a>
+                                    </li>
+                                </ul>
+    
+                                <ul>
+                                    <li class="flex-vertical ptb-20px">
+                                        <div class="logo">
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <span  class="grey ml-10px">EXTRA</span>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Donazioni</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Assicurazione internazionale</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Assicurazione del dispositivo</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <a href="#">Sicurezza</a>
+                                    </li>
+                                    <li class="ptb-20px">
+                                        <div class="ml-20px light-grey coming-soon">
+                                            Rewards
+                                            <div class="soon2">prossimamente</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            
+    
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="menu grey">Abbonamenti</a>
+                    <ul class="dropmenu small-menu">
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Standard</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Plus</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Premium</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Metal</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Confronta i piani</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="menu grey">Chi Siamo</a>
+                    <ul class="dropmenu  small-menu">
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Chi siamo</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Blog</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Leadership</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Sala stampa</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Affiliate</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Influencer</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Lavora con noi</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="menu grey">Aiuto</a>
+                    <ul class="dropmenu small-menu">
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Centro assistenza</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">community</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Sicurezza</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">Stato di sistema</a>
+                        </li>
+                        <li class="ptb-20px">
+                            <a href="#" class="grey">API sviluppatore</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="btn">Accedi</a>
+                </li>
+                <li>
+                    <a href="#" class="black-btn">Scarica l'App</a>
+                </li>
+    
+            </ul>
+            </div>
+            
+    
+        </header>
+    
+        <!-- MAIN -->
+        <main>
+            <div class="container main-menu"> 
+                <div class="jumbotrone-left pr-55px">
+                    <h1>Ottieni di più dal tuo denaro</h1>
+                    <p class="grey">Cambia denaro senza commissioni nascoste. Acquista Crypto e oro e gestisci il tuo denaro con l'analisi della spesa. Unisciti a più di 15 milioni di clienti Revolut.</p>
+                </div>
+                <div class="jumbotrone-right">
+                    <img src="https://assets.revolut.com/media/index/EU/home.png" alt="Revolut main screen" class="styles__StyledIosImage-sc-14j31di-2 hKaFYn">
+                    <a href="#" class="play flex-central-vertical"><i class="fas fa-play"></i></a>
+                </div>
+            </div>
+        </main>
+    
+        <!-- FOOTER -->
+        <footer>
+            footer...
+        </footer></section>
+    
 
     
 </body>
